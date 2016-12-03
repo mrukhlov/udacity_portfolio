@@ -1,0 +1,87 @@
+img, embed, object, video {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #2d3c49;
+}
+
+h3 {
+	font-weight: 900;
+}
+
+.text-muted {
+	color: #7d97ad;
+}
+
+.text-thin {
+	font-weight: 300;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: #7d97ad;
+}
+
+.col-md-6 .title-logo {
+	max-height: 100px;
+	margin-top: 20px;
+}
+
+.header {
+	display: flex;
+}
+
+.main-image {
+	width: 100vw;
+}
+
+.header .text-right {
+	float: right;
+}
+
+/*mobile devices (google nexus)*/
+
+@media only screen and (max-width: 361px) {
+	
+	h2, h3 {
+		font-size: 3em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+	.text-center div {
+		margin-top: 50px;
+	}
+}
+
+/*tablet devices (ipad)*/
+
+@media only screen and (min-width: 362px) and (max-width: 768px) {
+	
+	h2, h3 {
+		font-size: 3.5em;
+	}
+	
+	p {
+		font-size: 1.5em;
+	}
+	.text-center div {
+		margin-top: 50px;
+	}
+    
+    .text-muted {
+	    font-size: 4em;
+    }
+}
+
+.img-responsive {
+	width: 100vw;
+}
