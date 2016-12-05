@@ -33,6 +33,7 @@ hr {
 .col-md-6 .title-logo {
 	max-height: 100px;
 	margin-top: 20px;
+	min-width: 70px;
 }
 
 .header {
